@@ -1,0 +1,431 @@
+{
+  "latest_year": 2024,
+  "default_year": 2024,
+  "default_metric": "indice_habilitante_liderazgo_femenino_0_100",
+  "default_department": "Lima",
+  "metric_catalog": [
+    {
+      "id": "tasa_trabaja_horas_mujer",
+      "label": "Tasa de trabajo por horas - mujeres",
+      "unit": "percent",
+      "group": "Brecha general",
+      "type": "level"
+    },
+    {
+      "id": "tasa_trabaja_horas_hombre",
+      "label": "Tasa de trabajo por horas - hombres",
+      "unit": "percent",
+      "group": "Brecha general",
+      "type": "level"
+    },
+    {
+      "id": "gap_trabaja_horas_h_m",
+      "label": "Brecha de trabajo por horas (Hombre - Mujer)",
+      "unit": "percent",
+      "group": "Brecha general",
+      "type": "gap"
+    },
+    {
+      "id": "horas_prom_mujer",
+      "label": "Horas promedio trabajadas - mujeres",
+      "unit": "hours",
+      "group": "Brecha general",
+      "type": "level"
+    },
+    {
+      "id": "horas_prom_hombre",
+      "label": "Horas promedio trabajadas - hombres",
+      "unit": "hours",
+      "group": "Brecha general",
+      "type": "level"
+    },
+    {
+      "id": "gap_horas_h_m",
+      "label": "Brecha de horas trabajadas (Hombre - Mujer)",
+      "unit": "hours",
+      "group": "Brecha general",
+      "type": "gap"
+    },
+    {
+      "id": "pobreza_mujer",
+      "label": "Pobreza - mujeres",
+      "unit": "percent",
+      "group": "Brecha general",
+      "type": "level"
+    },
+    {
+      "id": "pobreza_hombre",
+      "label": "Pobreza - hombres",
+      "unit": "percent",
+      "group": "Brecha general",
+      "type": "level"
+    },
+    {
+      "id": "gap_pobreza_m_h",
+      "label": "Brecha de pobreza (Mujer - Hombre)",
+      "unit": "percent",
+      "group": "Brecha general",
+      "type": "gap"
+    },
+    {
+      "id": "ingreso_neto_hogar_mujer",
+      "label": "Ingreso neto del hogar - mujeres",
+      "unit": "income",
+      "group": "Brecha general",
+      "type": "level"
+    },
+    {
+      "id": "ingreso_neto_hogar_hombre",
+      "label": "Ingreso neto del hogar - hombres",
+      "unit": "income",
+      "group": "Brecha general",
+      "type": "level"
+    },
+    {
+      "id": "gap_ingreso_hogar_h_m",
+      "label": "Brecha de ingreso neto del hogar (Hombre - Mujer)",
+      "unit": "income",
+      "group": "Brecha general",
+      "type": "gap"
+    },
+    {
+      "id": "ratio_trabajo_m_h",
+      "label": "Índice de paridad laboral (Mujer / Hombre)",
+      "unit": "ratio",
+      "group": "Paridad",
+      "type": "ratio"
+    },
+    {
+      "id": "ratio_horas_m_h",
+      "label": "Índice de paridad de horas (Mujer / Hombre)",
+      "unit": "ratio",
+      "group": "Paridad",
+      "type": "ratio"
+    },
+    {
+      "id": "ratio_ingreso_hogar_m_h",
+      "label": "Índice de paridad de ingreso del hogar (Mujer / Hombre)",
+      "unit": "ratio",
+      "group": "Paridad",
+      "type": "ratio"
+    },
+    {
+      "id": "ratio_pobreza_m_h",
+      "label": "Ratio de pobreza (Mujer / Hombre)",
+      "unit": "ratio",
+      "group": "Paridad",
+      "type": "ratio"
+    },
+    {
+      "id": "tasa_educ_sup_mujer",
+      "label": "Tasa de educación superior - mujeres",
+      "unit": "percent",
+      "group": "Educación",
+      "type": "level"
+    },
+    {
+      "id": "tasa_educ_sup_hombre",
+      "label": "Tasa de educación superior - hombres",
+      "unit": "percent",
+      "group": "Educación",
+      "type": "level"
+    },
+    {
+      "id": "gap_educ_sup_m_h",
+      "label": "Brecha de educación superior (Mujer - Hombre)",
+      "unit": "percent",
+      "group": "Educación",
+      "type": "gap"
+    },
+    {
+      "id": "ratio_educ_sup_m_h",
+      "label": "Índice de paridad de educación superior (Mujer / Hombre)",
+      "unit": "ratio",
+      "group": "Educación",
+      "type": "ratio"
+    },
+    {
+      "id": "tasa_educ_univ_mujer",
+      "label": "Tasa de educación universitaria o más - mujeres",
+      "unit": "percent",
+      "group": "Educación",
+      "type": "level"
+    },
+    {
+      "id": "tasa_educ_univ_hombre",
+      "label": "Tasa de educación universitaria o más - hombres",
+      "unit": "percent",
+      "group": "Educación",
+      "type": "level"
+    },
+    {
+      "id": "gap_educ_univ_m_h",
+      "label": "Brecha de educación universitaria o más (Mujer - Hombre)",
+      "unit": "percent",
+      "group": "Educación",
+      "type": "gap"
+    },
+    {
+      "id": "share_mujeres_18_49_con_u6",
+      "label": "Mujeres 18-49 con niño/a <6 en hogar",
+      "unit": "percent",
+      "group": "Maternidad proxy",
+      "type": "level"
+    },
+    {
+      "id": "prom_ninios_u6_hogar_mujer_18_49",
+      "label": "Promedio de niños/as <6 en el hogar de mujeres 18-49",
+      "unit": "count",
+      "group": "Maternidad proxy",
+      "type": "level"
+    },
+    {
+      "id": "share_mujeres_18_49_con_2mas_u6",
+      "label": "Mujeres 18-49 con 2 o más niños/as <6 en hogar",
+      "unit": "percent",
+      "group": "Maternidad proxy",
+      "type": "level"
+    },
+    {
+      "id": "penalidad_maternidad_trabajo",
+      "label": "Penalidad maternidad proxy - trabajo",
+      "unit": "percent",
+      "group": "Maternidad proxy",
+      "type": "penalty"
+    },
+    {
+      "id": "penalidad_maternidad_horas",
+      "label": "Penalidad maternidad proxy - horas",
+      "unit": "hours",
+      "group": "Maternidad proxy",
+      "type": "penalty"
+    },
+    {
+      "id": "penalidad_maternidad_pobreza",
+      "label": "Penalidad maternidad proxy - pobreza",
+      "unit": "percent",
+      "group": "Maternidad proxy",
+      "type": "penalty"
+    },
+    {
+      "id": "penalidad_maternidad_ingreso",
+      "label": "Penalidad maternidad proxy - ingreso",
+      "unit": "income",
+      "group": "Maternidad proxy",
+      "type": "penalty"
+    },
+    {
+      "id": "penalidad_maternidad_trabajo_educ_sup",
+      "label": "Penalidad maternidad en trabajo - mujeres con educación superior",
+      "unit": "percent",
+      "group": "Cruce cuidado-educación",
+      "type": "penalty"
+    },
+    {
+      "id": "penalidad_maternidad_trabajo_no_educ_sup",
+      "label": "Penalidad maternidad en trabajo - mujeres sin educación superior",
+      "unit": "percent",
+      "group": "Cruce cuidado-educación",
+      "type": "penalty"
+    },
+    {
+      "id": "mitigacion_penalidad_trabajo_por_educ",
+      "label": "Mitigación de penalidad de trabajo por educación superior",
+      "unit": "percent",
+      "group": "Cruce cuidado-educación",
+      "type": "cross"
+    },
+    {
+      "id": "penalidad_maternidad_ingreso_educ_sup",
+      "label": "Penalidad maternidad en ingreso - mujeres con educación superior",
+      "unit": "income",
+      "group": "Cruce cuidado-educación",
+      "type": "penalty"
+    },
+    {
+      "id": "penalidad_maternidad_ingreso_no_educ_sup",
+      "label": "Penalidad maternidad en ingreso - mujeres sin educación superior",
+      "unit": "income",
+      "group": "Cruce cuidado-educación",
+      "type": "penalty"
+    },
+    {
+      "id": "mitigacion_penalidad_ingreso_por_educ",
+      "label": "Mitigación de penalidad de ingreso por educación superior",
+      "unit": "income",
+      "group": "Cruce cuidado-educación",
+      "type": "cross"
+    },
+    {
+      "id": "share_autoridades_mujeres",
+      "label": "Participación de mujeres en autoridades electas",
+      "unit": "percent",
+      "group": "Representación política",
+      "type": "level"
+    },
+    {
+      "id": "share_autoridades_hombres",
+      "label": "Participación de hombres en autoridades electas",
+      "unit": "percent",
+      "group": "Representación política",
+      "type": "level"
+    },
+    {
+      "id": "ratio_autoridades_mujer_hombre",
+      "label": "Ratio mujeres/hombres en autoridades electas",
+      "unit": "ratio",
+      "group": "Representación política",
+      "type": "ratio"
+    },
+    {
+      "id": "share_liderazgo_ejecutivo_mujeres",
+      "label": "Participación femenina en liderazgo ejecutivo (gobernaciones y alcaldías)",
+      "unit": "percent",
+      "group": "Liderazgo político",
+      "type": "level"
+    },
+    {
+      "id": "share_alcaldias_mujeres",
+      "label": "Participación femenina en alcaldías",
+      "unit": "percent",
+      "group": "Liderazgo político",
+      "type": "level"
+    },
+    {
+      "id": "share_gobernaciones_mujeres",
+      "label": "Participación femenina en gobernaciones",
+      "unit": "percent",
+      "group": "Liderazgo político",
+      "type": "level"
+    },
+    {
+      "id": "share_regidurias_mujeres",
+      "label": "Participación femenina en regidurías",
+      "unit": "percent",
+      "group": "Representación política",
+      "type": "level"
+    },
+    {
+      "id": "share_consejerias_mujeres",
+      "label": "Participación femenina en consejerías regionales",
+      "unit": "percent",
+      "group": "Representación política",
+      "type": "level"
+    },
+    {
+      "id": "densidad_liderazgo_femenino",
+      "label": "Densidad de liderazgo femenino sobre el total de autoridades",
+      "unit": "percent",
+      "group": "Liderazgo político",
+      "type": "level"
+    },
+    {
+      "id": "brecha_liderazgo_vs_base_mujeres",
+      "label": "Brecha entre liderazgo femenino y representación femenina total",
+      "unit": "percent",
+      "group": "Liderazgo político",
+      "type": "gap"
+    },
+    {
+      "id": "indice_techo_politico_mujeres",
+      "label": "Índice de techo político de mujeres",
+      "unit": "ratio",
+      "group": "Liderazgo político",
+      "type": "ratio"
+    },
+    {
+      "id": "indice_habilitante_liderazgo_femenino_0_100",
+      "label": "Índice habilitante de liderazgo femenino (0-100)",
+      "unit": "index",
+      "group": "Índice compuesto",
+      "type": "index"
+    }
+  ],
+  "notes": {
+    "spatial_unit": "Departamento derivado de UBIGEO (2 primeros dígitos)",
+    "class_social_proxy": "Quintiles anuales de ingreso per cápita del hogar",
+    "proxy_maternity": "Presencia de niño/a menor de 6 años en el hogar de mujeres 18-49",
+    "care_intensity_proxy": "Número de niños/as menores de 6 años en el hogar",
+    "employment_metric": "TRABAJA_HORAS = HORAS_TRABAJADAS_TOTAL > 0",
+    "higher_education_proxy": "ES_EDUC_SUPERIOR = EDU_NIVEL >= 7",
+    "university_proxy": "ES_EDUC_UNIVERSITARIA = EDU_NIVEL >= 9",
+    "ethnicity_warning": "Revisar ETHNICITY_MAP si la codificación de ENAHO en tu base difiere",
+    "political_data_source": "JNE - autoridades electas, expandido a años de gestión a partir del periodo",
+    "leadership_definition": "Liderazgo ejecutivo = gobernaciones regionales + alcaldías provinciales y distritales",
+    "composite_index_warning": "Índice compuesto exploratorio construido con normalización min-max anual por departamento"
+  },
+  "catalogos": {
+    "years": [
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "departamentos": [
+      "Amazonas",
+      "Apurímac",
+      "Arequipa",
+      "Ayacucho",
+      "Cajamarca",
+      "Callao",
+      "Cusco",
+      "Huancavelica",
+      "Huánuco",
+      "Ica",
+      "Junín",
+      "La Libertad",
+      "Lambayeque",
+      "Lima",
+      "Loreto",
+      "Madre de Dios",
+      "Moquegua",
+      "Pasco",
+      "Piura",
+      "Puno",
+      "San Martín",
+      "Tacna",
+      "Tumbes",
+      "Ucayali",
+      "Áncash"
+    ],
+    "clase_social": [
+      "Alta",
+      "Baja",
+      "Media",
+      "Media alta",
+      "Media baja",
+      "No disponible"
+    ],
+    "etnia": [
+      "No especificada"
+    ],
+    "ocupacion": [
+      "Empleador/a o patrono/a",
+      "Independiente",
+      "No especificada"
+    ],
+    "grupo_edad": [
+      "0-5",
+      "13-17",
+      "18-29",
+      "30-49",
+      "50-64",
+      "6-12",
+      "65+",
+      "No disponible"
+    ]
+  }
+}

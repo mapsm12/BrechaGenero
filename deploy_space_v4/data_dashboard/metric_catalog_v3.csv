@@ -1,0 +1,49 @@
+﻿id,label,unit,group,type
+tasa_trabaja_horas_mujer,Tasa de trabajo por horas - mujeres,percent,Brecha general,level
+tasa_trabaja_horas_hombre,Tasa de trabajo por horas - hombres,percent,Brecha general,level
+gap_trabaja_horas_h_m,Brecha de trabajo por horas (Hombre - Mujer),percent,Brecha general,gap
+horas_prom_mujer,Horas promedio trabajadas - mujeres,hours,Brecha general,level
+horas_prom_hombre,Horas promedio trabajadas - hombres,hours,Brecha general,level
+gap_horas_h_m,Brecha de horas trabajadas (Hombre - Mujer),hours,Brecha general,gap
+pobreza_mujer,Pobreza - mujeres,percent,Brecha general,level
+pobreza_hombre,Pobreza - hombres,percent,Brecha general,level
+gap_pobreza_m_h,Brecha de pobreza (Mujer - Hombre),percent,Brecha general,gap
+ingreso_neto_hogar_mujer,Ingreso neto del hogar - mujeres,income,Brecha general,level
+ingreso_neto_hogar_hombre,Ingreso neto del hogar - hombres,income,Brecha general,level
+gap_ingreso_hogar_h_m,Brecha de ingreso neto del hogar (Hombre - Mujer),income,Brecha general,gap
+ratio_trabajo_m_h,Índice de paridad laboral (Mujer / Hombre),ratio,Paridad,ratio
+ratio_horas_m_h,Índice de paridad de horas (Mujer / Hombre),ratio,Paridad,ratio
+ratio_ingreso_hogar_m_h,Índice de paridad de ingreso del hogar (Mujer / Hombre),ratio,Paridad,ratio
+ratio_pobreza_m_h,Ratio de pobreza (Mujer / Hombre),ratio,Paridad,ratio
+tasa_educ_sup_mujer,Tasa de educación superior - mujeres,percent,Educación,level
+tasa_educ_sup_hombre,Tasa de educación superior - hombres,percent,Educación,level
+gap_educ_sup_m_h,Brecha de educación superior (Mujer - Hombre),percent,Educación,gap
+ratio_educ_sup_m_h,Índice de paridad de educación superior (Mujer / Hombre),ratio,Educación,ratio
+tasa_educ_univ_mujer,Tasa de educación universitaria o más - mujeres,percent,Educación,level
+tasa_educ_univ_hombre,Tasa de educación universitaria o más - hombres,percent,Educación,level
+gap_educ_univ_m_h,Brecha de educación universitaria o más (Mujer - Hombre),percent,Educación,gap
+share_mujeres_18_49_con_u6,Mujeres 18-49 con niño/a <6 en hogar,percent,Maternidad proxy,level
+prom_ninios_u6_hogar_mujer_18_49,Promedio de niños/as <6 en el hogar de mujeres 18-49,count,Maternidad proxy,level
+share_mujeres_18_49_con_2mas_u6,Mujeres 18-49 con 2 o más niños/as <6 en hogar,percent,Maternidad proxy,level
+penalidad_maternidad_trabajo,Penalidad maternidad proxy - trabajo,percent,Maternidad proxy,penalty
+penalidad_maternidad_horas,Penalidad maternidad proxy - horas,hours,Maternidad proxy,penalty
+penalidad_maternidad_pobreza,Penalidad maternidad proxy - pobreza,percent,Maternidad proxy,penalty
+penalidad_maternidad_ingreso,Penalidad maternidad proxy - ingreso,income,Maternidad proxy,penalty
+penalidad_maternidad_trabajo_educ_sup,Penalidad maternidad en trabajo - mujeres con educación superior,percent,Cruce cuidado-educación,penalty
+penalidad_maternidad_trabajo_no_educ_sup,Penalidad maternidad en trabajo - mujeres sin educación superior,percent,Cruce cuidado-educación,penalty
+mitigacion_penalidad_trabajo_por_educ,Mitigación de penalidad de trabajo por educación superior,percent,Cruce cuidado-educación,cross
+penalidad_maternidad_ingreso_educ_sup,Penalidad maternidad en ingreso - mujeres con educación superior,income,Cruce cuidado-educación,penalty
+penalidad_maternidad_ingreso_no_educ_sup,Penalidad maternidad en ingreso - mujeres sin educación superior,income,Cruce cuidado-educación,penalty
+mitigacion_penalidad_ingreso_por_educ,Mitigación de penalidad de ingreso por educación superior,income,Cruce cuidado-educación,cross
+share_autoridades_mujeres,Participación de mujeres en autoridades electas,percent,Representación política,level
+share_autoridades_hombres,Participación de hombres en autoridades electas,percent,Representación política,level
+ratio_autoridades_mujer_hombre,Ratio mujeres/hombres en autoridades electas,ratio,Representación política,ratio
+share_liderazgo_ejecutivo_mujeres,Participación femenina en liderazgo ejecutivo (gobernaciones y alcaldías),percent,Liderazgo político,level
+share_alcaldias_mujeres,Participación femenina en alcaldías,percent,Liderazgo político,level
+share_gobernaciones_mujeres,Participación femenina en gobernaciones,percent,Liderazgo político,level
+share_regidurias_mujeres,Participación femenina en regidurías,percent,Representación política,level
+share_consejerias_mujeres,Participación femenina en consejerías regionales,percent,Representación política,level
+densidad_liderazgo_femenino,Densidad de liderazgo femenino sobre el total de autoridades,percent,Liderazgo político,level
+brecha_liderazgo_vs_base_mujeres,Brecha entre liderazgo femenino y representación femenina total,percent,Liderazgo político,gap
+indice_techo_politico_mujeres,Índice de techo político de mujeres,ratio,Liderazgo político,ratio
+indice_habilitante_liderazgo_femenino_0_100,Índice habilitante de liderazgo femenino (0-100),index,Índice compuesto,index
