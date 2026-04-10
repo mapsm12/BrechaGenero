@@ -1,0 +1,12 @@
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+*.pyo
+.DS_Store
+.env
+.venv/
+venv/
+env/
+*.log
+data_dashboard.zip
+data_dashboard/base_dashboard_v3.csv

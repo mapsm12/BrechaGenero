@@ -1,0 +1,8 @@
+# se sube con el siguiente comando 
+hf auth login
+hf repos create BrechaGeneroV4 --type space --space-sdk docker
+
+hf upload mapsm12/BrechaGeneroV4 ./deploy_space_v4 . \
+  --repo-type=space \
+  --delete="*" \
+  --commit-message="Deploy v4 dashboard"
